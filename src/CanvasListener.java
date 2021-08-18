@@ -359,10 +359,10 @@ public void keyPressed(KeyEvent e) {
          window.toggleSpeed();
         break;
     case KeyEvent.VK_F1:
-        window.zoom(2);
+        window.zoom(1.25);
         break;
     case KeyEvent.VK_F2:
-        window.zoom(.5);
+        window.zoom(.75);
         break;
     case KeyEvent.VK_UP:
         window.addYoff(5);

@@ -290,11 +290,7 @@ public class Level implements Runnable {
 (int) (scale * bgImage.getWidth()), (int) (scale * bgImage.getHeight()), null);
             boolean chosen = false;
             for (int i = 0; i < lemmings.size(); i++) {
-	 	try {
-		 Thread.sleep(100);
-		} catch (Exception e) {
 
-}
                 currentLemming = (Lemming) lemmings.get(i); 
                 currentLemming.updateImage();
                 int xtem = (int) (currentLemming.getXPos() * scale + txoffset);
@@ -426,6 +422,12 @@ public class Level implements Runnable {
                 drawHelp();
             }
             bufferStrategy.show();           
+
+              try {
+                Thread.sleep(100);
+              } catch (Exception e) {
+
+              }
         } //end while
         frame.removeMouseListener(listener);
         frame.removeMouseWheelListener(listener);
