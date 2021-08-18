@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir build
 cp src/* assets/* build/
 cd build/
