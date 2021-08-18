@@ -1,0 +1,15 @@
+#this line is a comment
+#This file is loaded by lemming to facilitate level selection.
+# the format is:
+# level #||filename||# of lemmings||initial release rate||#to be freed||time(min)||startPos
+#(2nd line: counts) digger||blocker||floater||exploder||bridger||climber||miner||basher
+# 1-2 digit, any number, 2-3 digit, 1-2 digit, 1-3 digit, 1-3 digit, 1-2 digit, 1-3 digit
+#the mask name is the fileName preceded by an m.
+0||level0||50||50||20||10||150,215
+-1||10||-1||-1||-1||-1||-1||-1
+1||level1||50||50||20||10||65,290
+5||3||3||-1||-1||-1||-1||5
+2||level2||50||50||20||10||230,200
+4||2||5||10||3||-1||-1||-1
+3||level3||50||50||20||10||955,285
+10||10||5||-1||3||2||2||5
