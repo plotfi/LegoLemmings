@@ -7,6 +7,8 @@ To build and run:
 ./build-and-run.sh
 ```
 
+Originally this code was subdivided into packages and had an ant build, but all of that stuff is atrocious so I dropped it all.
+
 <p align="center">
   <img alt="Lego Lemmings Screenshot" src="ScreenShot.gif" width="500" />
 </p>
