@@ -1,0 +1,15 @@
+.build/
+*.xcodeproj
+.swiftpm/
+
+# Local sound drop-ins. Audio lifted from a commercial game is fine to use on
+# your own machine and not fine to commit — id never released Wolfenstein 3D's
+# assets alongside its source. The game synthesizes its own if these are absent.
+sounds/*.wav
+sounds/*.WAV
+sounds/*.aiff
+sounds/*.aif
+sounds/*.caf
+sounds/*.mp3
+sounds/*.m4a
+sounds/*.au
